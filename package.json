@@ -1,0 +1,19 @@
+{
+  "name": "graphql-n-plus-one-lab",
+  "type": "module",
+  "description": "N+1 in GraphQL resolvers, and fixing it with DataLoader \u2014 depth topic 7",
+  "scripts": {
+    "before": "tsx before.ts",
+    "after": "tsx after.ts"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.4",
+    "dataloader": "^2.2.3",
+    "graphql": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "tsx": "^4.19.2"
+  },
+  "private": true
+}
